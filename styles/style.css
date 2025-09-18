@@ -12,6 +12,7 @@
 /* Navbar Section--------------------------------- */
 #bgColor{
     background-color: #fdf3e6;
+    padding: 10px;
 
 }
   .navbar{
@@ -106,4 +107,56 @@
     font-weight: 500;
     font-family: work sans;
     padding: 12px;
+}
+
+/* Feature section enjoy---------------------------- */
+
+#flex-contant{
+    display: flex;
+    gap: 20px;
+}
+
+
+.Featuretitle{
+    color: #131313;
+      font-weight: bold;
+    font-family: work sans;
+    padding: 40px;
+}
+.DeviceTitle{
+       font-weight: 700;
+    font-family: work sans;
+    padding: 25px;
+}
+
+.featurePG{
+    font-size: 15px;
+      font-family: work sans;
+      font-weight: 600;
+      margin-left: 20px;
+}
+
+.image-container{
+      position: relative;
+}
+.image-container, img
+{
+    height:100%;
+}
+.bottom-left-button{
+      position: absolute;
+  bottom: 5px; 
+ 
+  padding: 10px 12px;
+  background-color: #FF900E;
+  color:#FFFFFF ;
+     font-family: work sans;
+  border: none;
+  border-radius: 4px;
+}
+
+.btncolor{
+   font-size: 35px;
+    font-weight: 700;
+ 
 }
