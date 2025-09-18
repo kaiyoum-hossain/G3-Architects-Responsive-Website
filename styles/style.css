@@ -160,3 +160,45 @@
     font-weight: 700;
  
 }
+
+.bgColorSection{
+    background-color: #faf8f8;
+
+    border-radius: 10px;
+}
+
+/* Icon Section------------------------- */
+
+.FlexIcon{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;   
+     text-align: center;
+
+
+    
+}
+
+.Factstitle{
+     color: #131313;
+      font-weight: bold;
+    font-family: work sans;
+    padding: 45px;
+}
+.FactsPG{
+     font-size: 15px;
+      font-family: work sans;
+      font-weight: 600;
+        margin-left: 50px;
+        margin-top: -30px;
+}
+
+.imgWidth{
+    width: 30%;
+    height: 20%;
+}
+.IconSection{
+border: 1px solid #FF900E;
+padding: 10px;
+
+}
