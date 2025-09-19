@@ -82,25 +82,15 @@
 #mainFlexSection{
     display: flex;
     align-items: center;
-    gap: 30px;
+    text-align: center;
 }
 .mainGrid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+   
 }
-.colorTitle{
-  font-family: work sans;
-    font-weight:bold;
-    font-size: 40px;
-}
-.LisrColor{
-    color: #727272;
-     
-}
-.FeatureColor{
-    color: #FF900E;
-}
+
 
 .mainSubtitle{
     opacity: 70%;
@@ -118,12 +108,14 @@
 
 
 .Featuretitle{
+    font-size: 40px;
     color: #131313;
       font-weight: bold;
     font-family: work sans;
-    padding: 40px;
+    padding: 30px;
 }
 .DeviceTitle{
+
        font-weight: 700;
     font-family: work sans;
     padding: 25px;
@@ -142,6 +134,10 @@
 .image-container, img
 {
     height:100%;
+}
+
+.pngImg{
+  margin: 20px;
 }
 .bottom-left-button{
       position: absolute;
@@ -225,4 +221,167 @@ padding: 10px;
     background-color: #fff5eb;
     font-size: 18px;
           font-family: work sans;
+}
+
+
+@media screen and (max-width:576px){
+    .navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+  }
+  .navbarTitle{
+    color: #131313;
+    font-family: work sans;
+    font-weight:bold;
+    font-size: 25px;
+  }
+
+  .navbarList{
+    display: flex;
+   gap: 20px;
+  }
+
+  nav, div, li, a{
+    color: #424242;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: work sans;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+  }
+    .BannerTitle{
+        color: #131313;
+    font-family: work sans;
+    font-weight:bold;
+    font-size: 40px;
+  }
+
+
+.bannerImg{
+     width: 80%;
+    align-items: center;
+    margin-left: 50px;
+}
+
+
+#mainFlexSection{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.mainGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+     margin: 10%;
+
+}
+.mainGrid, img{
+  width:220px;
+}
+.colorTitle{
+  font-family: work sans;
+    font-weight:bold;
+    font-size: 40px;
+}
+.LisrColor{
+    color: #727272;
+     
+}
+.FeatureColor{
+    color: #FF900E;
+}
+
+.mainSubtitle{
+    opacity: 70%;
+    font-weight: 500;
+    font-family: work sans;
+    padding: 12px;
+}
+
+
+
+#flex-contant{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Featuretitle{
+    color: #131313;
+      font-weight: bold;
+      font-size: 40px;
+    font-family: work sans;
+    padding: 40px;
+}
+.DeviceTitle{
+       font-weight: 700;
+    font-family: work sans;
+    font-size: 20px;
+    padding: 25px;
+}
+.pngImg
+{
+width: 420px;
+margin: 50px;
+}
+
+.Factstitle{
+     color: #131313;
+      font-weight: bold;
+      font-size: 40px;
+    font-family: work sans;
+    padding: 45px;
+}
+.FactsPG{
+     font-size: 15px;
+      font-family: work sans;
+      font-weight: 600;
+        margin-left: 50px;
+        margin-top: -30px;
+}
+.FlexIcon{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;   
+     text-align: center;
+     margin: 20px;
+    
+}
+
+.FactsPG{
+     font-size: 14px;
+      font-family: work sans;
+      font-weight: 600;
+        margin-left: 50px;
+        margin-top: -30px;
+}
+
+
+.footerImg{
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+   height: 40px;
+
+}
+
+
+.inputFooter{
+   
+margin-left: -60px;
+ margin-top: 120px;
+
+    border-radius: 10px;
+    border: none;
+    background-color: #fff5eb;
+    font-size: 12px;
+          font-family: work sans;
+}
 }
